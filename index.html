@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículo de Josiel Oliveira</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #1e1e1e, #333);
+      color: #fff;
+      padding: 20px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      animation: slideUp 1s ease-out;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    aside.sidebar {
+      background-color: #2c2c2c;
+      flex: 1 1 65%;
+      padding: 40px;
+      border-right: 3px solid #e27d60;
+    }
+
+    .foto {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #e27d60;
+      display: block;
+      margin: 0 auto 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    h1 span {
+      color: #e27d60;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 40px;
+      color: #ccc;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #f4a261;
+      margin: 25px 0 15px;
+      border-bottom: 2px solid #f4a261;
+      padding-bottom: 5px;
+    }
+
+    p, ul li {
+      line-height: 1.6;
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li strong {
+      color: #f4a261;
+    }
+
+    .main-content {
+      background-color: #1f1f1f;
+      flex: 1 1 35%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .main-content h2 {
+      color: #e9c46a;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .main-content ul li {
+      background: #2b2b2b;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      border-left: 4px solid #e9c46a;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .main-content ul li:hover {
+      background: #383838;
+      transform: translateX(5px);
+    }
+
+    .contato {
+      margin-top: 30px;
+    }
+
+    .contato h2 {
+      color: #4ecdc4;
+      border-bottom: 2px solid #4ecdc4;
+    }
+
+    .contato ul li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #2c2c2c;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .contato ul li:hover {
+      background: #3a3a3a;
+    }
+
+    .contato ul li i {
+      color: #4ecdc4;
+      font-size: 18px;
+    }
+
+    .contato a {
+      color: #4ecdc4;
+      text-decoration: none;
+    }
+
+    .contato a:hover {
+      text-decoration: underline;
+    }
+
+    .badges {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background-color: #e76f51;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      color: white;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+    }
+
+    .badge:hover {
+      transform: scale(1.1);
+      background-color: #f28482;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="WhatsApp Image 2025-05-05 at 15.11.56.jpeg" alt="Foto de Perfil" class="foto">
+
+      <h1>Josiel <span>Oliveira</span></h1>
+      <p class="titulo">Estudante de Análise e Desenvolvimento de Sistemas</p>
+
+      <div class="Sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Sou apaixonado por tecnologia e inovação, com experiência em vendas, atendimento ao público e desenvolvimento web. Busco uma oportunidade de crescimento profissional onde eu possa aplicar meus conhecimentos e evoluir junto com a equipe.</p>
+
+        <div class="badges">
+          <span class="badge">Criativo</span>
+          <span class="badge">Proativo</span>
+          <span class="badge">Foco em resultados</span>
+          <span class="badge">Aprendizado rápido</span>
+        </div>
+      </div>
+
+      <div class="formacao">
+        <h2>Formação</h2>
+        <ul>
+          <li>Graduação em andamento - Análise e Desenvolvimento de Sistemas - UNIFRAN</li>
+        </ul>
+      </div>
+
+      <div class="experiencia">
+        <h2>Experiência</h2>
+        <ul>
+          <li><strong>Consultor de Vendas - Eletro Eletrônicas</strong> | 2014 - 2020</li>
+          <li><strong>Gerente de Equipe de Vendas</strong> - Coordenação de metas, treinamentos e resultados.</li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="Aprendendo">
+        <h2>Em Aprendizado</h2>
+        <ul>
+          <li>HTML & CSS - Estruturação e estilização de sites</li>
+          <li>JavaScript - Interatividade e lógica de programação</li>
+          <li>Python - Desenvolvimento de scripts e backend</li>
+        </ul>
+      </div>
+
+      <div class="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Comunicação e persuasão em vendas</li>
+          <li>Inglês intermediário</li>
+          <li>Organização e trabalho em equipe</li>
+        </ul>
+      </div>
+
+      <div class="contato">
+        <h2>Contato</h2>
+        <ul>
+          <li><i class="fab fa-whatsapp"></i>  <a href="https://wa.me/5531983213167" target="_blank">Whatsapp</a></li>
+          <li><i class="fas fa-envelope"></i> josielcarlos285@gmail.com</li>
+          <li><i class="fab fa-linkedin"></i> <a href="https://br.linkedin.com/in/josiel-oliveiira-0a2657244" target="_blank">LinkedIn</a></li>
+          <li><i class="fab fa-github"></i> <a href="https://github.com/O-iluminado" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
